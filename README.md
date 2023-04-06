@@ -1,3 +1,3 @@
 # testML
 
-**Test code built based on Python>=2.0
+Test code built based on Python>=2.0
