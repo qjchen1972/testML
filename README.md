@@ -6,9 +6,11 @@ This training script can be run both on a single gpu in debug mode,
 and also in a larger training run with distributed data parallel (ddp).
 
 To run on a single GPU, example:
+
 $ python play.py 
 
 To run with DDP on 4 gpus on 1 node, example:
+
 $ torchrun --standalone --nproc_per_node=4 play.py
 
 To run with DDP on 4 gpus across 2 nodes, example:
