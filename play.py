@@ -122,6 +122,7 @@ train_config = Trainer.get_default_config()
 train_config.learning_rate = 5e-4 # the model we're using is so small that we can go a bit faster
 train_config.max_epochs = 20
 train_config.num_workers = 0
+#windows下不支持compile
 train_config.compile = False
 trainer = Trainer(train_config)
 trainer.setDataset(train_dataset, test_dataset)
